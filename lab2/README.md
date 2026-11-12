@@ -38,7 +38,7 @@ lab2/
 ```
 **Результат запуска**
 
-![alt text](image.png)
+![alt text](image2.png)
 
 Fort и Archer атакуют одинаково, через Attacker.attack(unit), хотя находятся в разных ветках иерархии. Это и есть полиморфизм.
 
