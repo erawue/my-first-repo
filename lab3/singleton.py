@@ -2,8 +2,6 @@ import threading
 
 
 class AppConfig:
-    """Конфигурация приложения - единственная на всю программу."""
-
     _instance = None
     _lock = threading.Lock()  # защита от гонки при создании из нескольких потоков
 
